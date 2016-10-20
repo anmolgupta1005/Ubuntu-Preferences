@@ -24,12 +24,12 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 # Terminal format Alias definitions.
-if [ -f ~/.bash_aliases ]; then
+if [ -f ~/.bashrc_aliases ]; then
     . ~/.bash_aliases
 fi
 
 # commonly used ssh definitions.
-if [ -f ~/.bash_ssh ]; then
+if [ -f ~/.bashrc_ssh ]; then
     . ~/.bash_ssh
 fi
 
