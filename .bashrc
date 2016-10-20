@@ -29,8 +29,8 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # commonly used ssh definitions.
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/.bash_ssh ]; then
+    . ~/.bash_ssh
 fi
 
 #for git-configurations
