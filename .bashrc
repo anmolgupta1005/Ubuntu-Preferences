@@ -39,12 +39,15 @@ if [ -f ~/.gitconfig ]; then
 fi
 comment
 
-# git commands
-alias commit="git add . &&  git commit -m \"AUTOCOMMIT `whoami`@`hostname`:`date`\""
-alias push="git push origin master"
-alias send="git add . &&  git commit -m \"AUTOCOMMIT `whoami`@`hostname`:`date`\" && git push origin master"
-
 
 #customization to terminal prompt - Will overwrite the the default and the current PS1 values
-PS1="\n\[\e[40;1;33m\]>> \[\e[0m\]"
+# I regurlary use
+export PS1="\n\[\e[40;1;33m\]>> \[\e[0m\]"
+
+# I also like the following configurations
+#export PS1='\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]$(pwd)$\[\e[0m\] '
+#export PS1="\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\] [\`if [ \$? = 0 ]; then echo -e \[\e[32m\]\"\\xE2\\x9C\\x93\"\[\e[0m\]; else echo -e \[\e[31m\]\"\\xE2\\x9D\\x8C\"\[\e[0m\]; fi\`]\n\$> "
+#export PS1='\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\]\n\$>[\`if [ \$? = 0 ]; then echo -e \[\e[32m\]\"\\xE2\\x9C\\x93\"\[\e[0m\]; else echo -e \[\e[31m\]\"\\xE2\\x9D\\x8C\"\[\e[0m\]; fi\`] '
+#export PS1='\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\]\n\$> '
+#export PS1="\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^\[\e[0m\]; else echo \[\e[31m\]O_O\[\e[0m\]; fi\`[\u@\h:\w]\\$ "
 ####################################################################################################################################################################################
