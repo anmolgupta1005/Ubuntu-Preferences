@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# some ssh(es) I regularly use
+# Obviously, they keep changing with changing projects
+# Remove -y flag if you want to disable X11 forwarding
+
+alias pizzaman='ssh -Y -o StrictHostKeyChecking=no root@128.197.176.168'
+alias agupta10='ssh -Y -o StrictHostKeyChecking=no agupta10@eng-grid.bu.edu'
+alias icsg4='ssh -X -o StrictHostKeyChecking=no agupta10@128.197.176.241'
+alias enggrid='ssh -Y -c blowfish -C agupta10@engineering-grid1.bu.edu'
+
+# To provide passwords directly in the ssh command
+# A feature to use if you are very regularly logging in and logging out of a machine
+# It could be annoyiong to enter your passwords regularly
+# Just hope non-authorized users are not snooping around for "things" on your machine,
+# since here you will literally spoon-feed them with vital piece of information
+
+# alias pizzaman='sshpass -p "<your password>" -o StrictHostKeyChecking=no ssh -Y root@128.197.176.168'
