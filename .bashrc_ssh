@@ -4,10 +4,10 @@
 # Obviously, they keep changing with changing projects
 # Remove -y flag if you want to disable X11 forwarding
 
-alias pizzaman='ssh -Y -o StrictHostKeyChecking=no root@128.197.176.168'
-alias agupta10='ssh -Y -o StrictHostKeyChecking=no agupta10@eng-grid.bu.edu'
-alias icsg4='ssh -X -o StrictHostKeyChecking=no agupta10@128.197.176.241'
-alias enggrid='ssh -Y -c blowfish -C agupta10@engineering-grid1.bu.edu'
+alias pizzaman='ssh -c arcfour,blowfish-cbc -YC -o StrictHostKeyChecking=no anmol@128.197.176.168'
+alias agupta10='ssh -c arcfour,blowfish-cbc -YC-o StrictHostKeyChecking=no agupta10@eng-grid.bu.edu'
+alias icsg4='ssh -c arcfour,blowfish-cbc -YC -o StrictHostKeyChecking=no agupta10@128.197.176.241'
+alias enggrid='ssh -c arcfour,blowfish-cbc -YC -o StrictHostKeyChecking=no agupta10@engineering-grid1.bu.edu'
 
 # To provide passwords directly in the ssh command
 # A feature to use if you are very regularly logging in and logging out of a machine
