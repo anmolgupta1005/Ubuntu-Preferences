@@ -1,5 +1,5 @@
-# Ubuntu-Prefrences
-Contains .bash prefrences!
+# Ubuntu-Preferences
+Contains .bash preferences!
 
 
 Contains the .bashrc with customizations that I like to use when operating on Ubuntu
