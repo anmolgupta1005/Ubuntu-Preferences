@@ -1,14 +1,5 @@
-
-
-
-[core]
-	excludesfile = /home/anmol/.gitignore_global
-	editor = subl
-
-[include]
-	path=~/.gitconfig_user
-	path=gitconfig_alias
-[web]
-    browser = firefox
-[instaweb]
-    httpd = apache2 -f
+[user]
+	name = agupta6
+	email = Anmol.Gupta@analog.com
+[push]
+	default = simple

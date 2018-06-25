@@ -10,6 +10,7 @@ set textwidth=80
 set autoread
 set hlsearch
 set paste
+set visualbell t_vb=
 "indent
 "set foldmethod=indent
 
