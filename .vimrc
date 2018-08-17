@@ -84,7 +84,7 @@ map! <C-e> \begin{equation}<CR>\end{equation}
 map! <C-f> \begin{figure}<CR><tab>\includegraphics[width=4in]{}<CR>\caption{}<CR><C-H><C-H><C-H><C-H>\end{figure}
 
 " plugins
-execute pathogen#infect()
+" execute pathogen#infect()
 
 " syntastic
 set statusline+=%#warningmsg#
