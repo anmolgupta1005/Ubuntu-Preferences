@@ -3,12 +3,8 @@
 usr=`whoami`
 # some shortcuts for self-use
 alias ..='cd ..'
-alias explorer='/mnt/c/Windows/explorer.exe'
 alias la='ls -AlhCXg --group-directories-first'
-alias desktop="cd /mnt/c/Users/$usr/Desktop"
-alias documents="cd /mnt/c/Users/$usr/Documents"
-alias downloads="cd /mnt/c/Users/$usr/Downloads"
+alias desktop="cd /home/$usr/Desktop"
+alias documents="cd /home/$usr/Documents"
+alias downloads="cd /home/$usr/Downloads"
 alias python='/usr/bin/python3.6'
-alias sublime="/mnt/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
-alias garage="cd /mnt/c/Users/$usr/OneDrive\ -\ Analog\ Devices\,\ Inc/Garage/"
-alias geec2="cd /mnt/c/Users/$usr/OneDrive\ -\ Analog\ Devices\,\ Inc/GEEC2/"
