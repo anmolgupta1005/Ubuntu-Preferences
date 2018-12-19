@@ -141,3 +141,9 @@ export PS1="\n\[\e[40;1;33m\]>> \[\e[0m\]"
 #export PS1='\[\e[0;33m\]\u\[\e[0;31m\]@\[\e[0;36m\]\h\[\e[0;32m\]:$(pwd)$\[\e[0m\]\n\$> '
 #export PS1="\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^\[\e[0m\]; else echo \[\e[31m\]O_O\[\e[0m\]; fi\`[\u@\h:\w]\\$ "
 ####################################################################################################################################################################################
+
+
+# Cross-core Linux additions to the PATH variable
+
+
+export PATH=$PATH:/opt/analog/cces-linux-add-in/1.2.0/ARM/arm-linux-gnueabi/bin:/opt/analog/cces/2.8.0/ARM/arm-none-eabi/bin:/opt/analog/cces/2.8.0/ARM/openocd/bin
